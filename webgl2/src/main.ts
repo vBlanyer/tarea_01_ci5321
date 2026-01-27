@@ -24,6 +24,8 @@ class App {
     
     const positionAttributeLocation = this.gl.getAttribLocation(this.program, 'position'); // debe coincidir con el "in" del vertex shader
     const colorAttributeLocation = this.gl.getAttribLocation(this.program, 'color');
+
+    // Atributo de posicion
     const positionBuffer = this.gl.createBuffer();
     this.gl.bindBuffer(this.gl.ARRAY_BUFFER, positionBuffer);
     const positions = [
@@ -36,7 +38,6 @@ class App {
     const vao = this.gl.createVertexArray();
     this.gl.bindVertexArray(vao);
 
-    // Atributo de posicion
     this.gl.enableVertexAttribArray(positionAttributeLocation);
     this.gl.vertexAttribPointer(positionAttributeLocation, 2, this.gl.FLOAT, false, 0, 0);
 
