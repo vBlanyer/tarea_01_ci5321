@@ -5,7 +5,7 @@
 
 ## Descripción general
 
-Este proyecto implementa modelos de Redes Neuronales Recurrentes (RNNs) y Long Short-Term Memory (LSTMs) para realizar análisis de sentimientos en reseñas de películas en español, utilizando el conjunto de datos IMDB Dataset of 50K Movie Reviews (Spanish). El objetivo es clasificar las reseñas como positivas o negativas basándose en su contenido textual. Y estudiar el rendimiento de diferentes arquitecturas y técnicas de embedding.
+Se implementa un triángulo equilátero renderizado en un canvas con los vértices coloreados en rojo, verde y azul sobre un fondo ligeramente oscuro. El objetivo fue comparar la implementación con WebGL2 “vainilla”, la biblioteca TWGL y Three.js, para evidenciar las diferencias en abstracción, cantidad de código y control sobre el pipeline gráfico.
 
 ## Ejecucion 
 
