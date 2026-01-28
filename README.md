@@ -15,7 +15,7 @@ Para arrancar el programo es necesario ubicarse dentro de la carpeta con la API 
 npm run dev
 ```
 
-Y colocar en el navegador el enlace 
+Y colocar en el navegador el enlace http://localhost:5173/
 
 ## Referencias
 * WebGL2 Fundamentals (https://webgl2fundamentals.org/)
