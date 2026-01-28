@@ -24,7 +24,7 @@ class App {
       color: { numComponents: 3, data: [1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0] },
     });
 
-    this.gl.clearColor(0, 0, 0, 1);
+    this.gl.clearColor(0.10588, 0.11765, 0.16863, 1);
     requestAnimationFrame(this.render);
   }
 

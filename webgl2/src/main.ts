@@ -61,7 +61,7 @@ class App {
     this.gl.useProgram(this.program);
 
     this.gl.bindVertexArray(vao);
-    this.gl.clearColor(0, 0, 0, 1);
+    this.gl.clearColor(0.10588, 0.11765, 0.16863, 1);
     this.gl.clear(this.gl.COLOR_BUFFER_BIT);
     this.gl.drawArrays(this.gl.TRIANGLES, 0, 3);
   }
