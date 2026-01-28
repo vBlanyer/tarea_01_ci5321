@@ -5,7 +5,7 @@
 
 ## Descripción general
 
-Se implementa un triángulo equilátero renderizado en un canvas con los vértices coloreados en rojo, verde y azul sobre un fondo ligeramente oscuro. El objetivo fue comparar la implementación con WebGL2 “vainilla”, la biblioteca TWGL y Three.js, para evidenciar las diferencias en abstracción, cantidad de código y control sobre el pipeline gráfico.
+Se implementa un triángulo equilátero renderizado en un canvas con los vértices coloreados en rojo, verde y azul sobre un fondo ligeramente oscuro. Para observar los distintos niveles de abstracción y cómo eso conecta con la cadena de renderizado.
 
 ## Ejecucion 
 
